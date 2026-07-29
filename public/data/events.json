@@ -1,0 +1,7 @@
+[
+  { "year": 184, "title": "黄巾起义", "description": "张角举义，天下将乱" },
+  { "year": 196, "title": "迎献帝许都", "description": "曹操迎汉献帝于许都" },
+  { "year": 200, "title": "官渡之战", "description": "曹操大破袁绍，奠定北方", "battle": "guandu" },
+  { "year": 208, "title": "赤壁之战", "description": "孙刘联军破曹，三分天下" },
+  { "year": 220, "title": "曹丕称帝", "description": "汉祚终结，曹魏立国" }
+]

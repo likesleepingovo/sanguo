@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "嵩山", "era": "中原名山" },
+      "geometry": { "type": "Point", "coordinates": [113.05, 34.48] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "太行山", "era": "并州屏障" },
+      "geometry": { "type": "Point", "coordinates": [113.80, 37.50] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "黄河", "era": "天堑" },
+      "geometry": { "type": "Point", "coordinates": [113.50, 34.90] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "官渡渡", "era": "200年战场" },
+      "geometry": { "type": "Point", "coordinates": [113.88, 34.68] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "冀州", "era": "袁绍领地" },
+      "geometry": { "type": "Point", "coordinates": [115.00, 37.80] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "兖州", "era": "曹操根基" },
+      "geometry": { "type": "Point", "coordinates": [116.50, 35.80] }
+    }
+  ]
+}

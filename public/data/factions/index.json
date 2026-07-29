@@ -1,0 +1,115 @@
+{
+  "184": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "faction": "han", "name": "东汉" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[102, 22], [122, 22], [122, 42], [102, 42], [102, 22]]]
+        }
+      }
+    ]
+  },
+  "200": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "faction": "wei", "name": "曹操" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[108, 28], [120, 28], [120, 40], [108, 40], [108, 28]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "faction": "qunxiong", "name": "袁绍" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[112, 34], [122, 34], [122, 42], [112, 42], [112, 34]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "faction": "qunxiong", "name": "刘表" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[108, 28], [116, 28], [116, 34], [108, 34], [108, 28]]]
+        }
+      }
+    ]
+  },
+  "208": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "faction": "wei", "name": "曹魏" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[105, 32], [120, 32], [120, 42], [105, 42], [105, 32]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "faction": "shu", "name": "刘备" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[102, 28], [112, 28], [112, 34], [102, 34], [102, 28]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "faction": "wu", "name": "孙权" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[115, 26], [122, 26], [122, 34], [115, 34], [115, 26]]]
+        }
+      }
+    ]
+  },
+  "221": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "faction": "wei", "name": "曹魏" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[105, 32], [120, 32], [120, 42], [105, 42], [105, 32]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "faction": "shu", "name": "蜀汉" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[98, 26], [110, 26], [110, 34], [98, 34], [98, 26]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "faction": "wu", "name": "东吴" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[112, 24], [122, 24], [122, 34], [112, 34], [112, 24]]]
+        }
+      }
+    ]
+  },
+  "280": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "faction": "wei", "name": "西晋" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[98, 22], [122, 22], [122, 42], [98, 42], [98, 22]]]
+        }
+      }
+    ]
+  }
+}

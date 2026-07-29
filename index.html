@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>三国时空沙盘</title>
+    <link
+      href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header class="app-header">
+        <h1 class="app-title">三国时空沙盘</h1>
+        <span class="app-subtitle" id="era-label">东汉末年 · 184年</span>
+      </header>
+
+      <!-- 左侧：事件目录 -->
+      <aside class="sidebar-left">
+        <h2>事件目录</h2>
+        <ul id="event-list" class="event-list"></ul>
+        <section class="battle-section hidden" id="battle-section">
+          <h3>官渡之战</h3>
+          <p id="battle-text" class="battle-text"></p>
+          <div class="battle-controls">
+            <button id="battle-play" class="ctrl-btn">▶ 播放</button>
+            <button id="battle-pause" class="ctrl-btn">⏸ 暂停</button>
+          </div>
+        </section>
+      </aside>
+
+      <!-- 地图主区域 -->
+      <main class="map-container">
+        <div id="map"></div>
+      </main>
+
+      <!-- 右侧：图层控制 -->
+      <aside class="sidebar-right">
+        <h2>图层控制</h2>
+        <div class="layer-list">
+          <label><input type="checkbox" data-layer="cities" checked /> 城池点位</label>
+          <label><input type="checkbox" data-layer="places" checked /> 地名标注</label>
+          <label><input type="checkbox" data-layer="rivers" checked /> 水系</label>
+          <label><input type="checkbox" data-layer="factions" checked /> 势力边界</label>
+          <label><input type="checkbox" data-layer="characters" checked /> 人物头像</label>
+          <label><input type="checkbox" data-layer="routes" checked /> 行军路线</label>
+        </div>
+        <div class="legend">
+          <h3>势力图例</h3>
+          <span class="legend-item wei">曹魏</span>
+          <span class="legend-item shu">蜀汉</span>
+          <span class="legend-item wu">东吴</span>
+          <span class="legend-item qunxiong">群雄</span>
+        </div>
+      </aside>
+
+      <!-- 底部：时间轴 -->
+      <footer class="timeline-bar">
+        <span class="timeline-year" id="current-year">184</span>
+        <span class="timeline-unit">年</span>
+        <div class="timeline-track">
+          <input type="range" id="timeline-slider" min="184" max="220" value="184" step="1" />
+          <div id="timeline-marks" class="timeline-marks"></div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

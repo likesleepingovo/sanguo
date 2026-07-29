@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luoyang",
+        "name": "洛阳",
+        "era": "东汉都城",
+        "importance": "capital"
+      },
+      "geometry": { "type": "Point", "coordinates": [112.45, 34.62] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "xuchang",
+        "name": "许都",
+        "era": "196年迎献帝",
+        "importance": "capital"
+      },
+      "geometry": { "type": "Point", "coordinates": [113.85, 34.02] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yecheng",
+        "name": "邺城",
+        "era": "袁绍基业",
+        "importance": "major"
+      },
+      "geometry": { "type": "Point", "coordinates": [114.35, 36.10] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "guandu",
+        "name": "官渡",
+        "era": "200年决战",
+        "importance": "battlefield"
+      },
+      "geometry": { "type": "Point", "coordinates": [113.95, 34.72] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wuchao",
+        "name": "乌巢",
+        "era": "200年焚粮",
+        "importance": "battlefield"
+      },
+      "geometry": { "type": "Point", "coordinates": [114.10, 34.85] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "changan",
+        "name": "长安",
+        "era": "西京",
+        "importance": "major"
+      },
+      "geometry": { "type": "Point", "coordinates": [108.94, 34.26] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "xiangyang",
+        "name": "襄阳",
+        "era": "荆州重镇",
+        "importance": "major"
+      },
+      "geometry": { "type": "Point", "coordinates": [112.14, 32.01] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chengdu",
+        "name": "成都",
+        "era": "221年蜀汉都",
+        "importance": "capital"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.07, 30.67] }
+    }
+  ]
+}

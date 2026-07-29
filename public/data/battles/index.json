@@ -1,0 +1,126 @@
+[
+  {
+    "id": "guandu",
+    "name": "官渡之战",
+    "year": 200,
+    "center": [113.95, 34.72],
+    "zoom": 7.5,
+    "pitch": 55,
+    "bearing": -15,
+    "phases": [
+      {
+        "title": "对峙阶段",
+        "text": "袁绍率十万大军南下，曹操以两万兵力据守官渡，双方形成对峙。",
+        "routes": [],
+        "highlights": [],
+        "occupations": []
+      },
+      {
+        "title": "奇袭乌巢",
+        "text": "曹操采纳许攸之计，亲率精兵夜袭乌巢，焚毁袁绍粮草。",
+        "routes": [
+          {
+            "id": "cao-raid",
+            "faction": "wei",
+            "coordinates": [[113.85, 34.02], [113.70, 34.30], [113.95, 34.72]]
+          }
+        ],
+        "highlights": [
+          {
+            "type": "Polygon",
+            "coordinates": [[[113.7, 34.6], [114.2, 34.6], [114.2, 34.9], [113.7, 34.9], [113.7, 34.6]]]
+          }
+        ],
+        "occupations": [{ "cityId": "guandu", "faction": "wei" }]
+      },
+      {
+        "title": "全线溃败",
+        "text": "粮草被焚，袁军大乱，曹操乘势出击，以少胜多，奠定北方统一基础。",
+        "routes": [
+          {
+            "id": "cao-charge",
+            "faction": "wei",
+            "coordinates": [[113.95, 34.72], [114.20, 34.85], [114.50, 35.10]]
+          },
+          {
+            "id": "yuan-retreat",
+            "faction": "qunxiong",
+            "coordinates": [[114.0, 34.8], [114.5, 35.5], [115.0, 36.5]]
+          }
+        ],
+        "highlights": [
+          {
+            "type": "Polygon",
+            "coordinates": [[[113.5, 34.5], [114.5, 34.5], [114.5, 35.2], [113.5, 35.2], [113.5, 34.5]]]
+          }
+        ],
+        "occupations": [{ "cityId": "yecheng", "faction": "wei" }]
+      }
+    ]
+  },
+  {
+    "id": "chibi",
+    "name": "赤壁之战",
+    "year": 208,
+    "center": [113.90, 29.72],
+    "zoom": 7,
+    "pitch": 50,
+    "bearing": 0,
+    "phases": [
+      {
+        "title": "曹操南下",
+        "text": "曹操率大军顺江而下，意图一举统一天下。",
+        "routes": [
+          {
+            "id": "cao-south",
+            "faction": "wei",
+            "coordinates": [[114.35, 36.10], [113.0, 32.0], [112.5, 30.5], [113.90, 29.72]]
+          }
+        ],
+        "highlights": [],
+        "occupations": []
+      },
+      {
+        "title": "孙刘联盟",
+        "text": "孙权与刘备结盟，周瑜、诸葛亮共定火攻之策。",
+        "routes": [
+          {
+            "id": "sun-north",
+            "faction": "wu",
+            "coordinates": [[118.78, 32.06], [116.0, 30.5], [113.90, 29.72]]
+          },
+          {
+            "id": "liu-east",
+            "faction": "shu",
+            "coordinates": [[112.14, 32.01], [113.0, 30.5], [113.90, 29.72]]
+          }
+        ],
+        "highlights": [],
+        "occupations": []
+      },
+      {
+        "title": "火烧赤壁",
+        "text": "黄盖诈降，火攻曹军战船，曹操大败北还，三国鼎立格局形成。",
+        "routes": [
+          {
+            "id": "fire-attack",
+            "faction": "wu",
+            "coordinates": [[113.90, 29.72], [113.85, 29.80], [113.75, 29.90]]
+          },
+          {
+            "id": "cao-retreat",
+            "faction": "wei",
+            "coordinates": [[113.90, 29.72], [114.0, 31.0], [114.35, 36.10]]
+          }
+        ],
+        "highlights": [
+          {
+            "type": "Polygon",
+            "coordinates": [[[113.6, 29.5], [114.2, 29.5], [114.2, 30.0], [113.6, 30.0], [113.6, 29.5]]]
+          }
+        ],
+        "occupations": [{ "cityId": "chibi", "faction": "wu" }]
+      }
+    ]
+  }
+]

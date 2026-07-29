@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luoyang",
+        "name": "洛阳",
+        "faction": "东汉",
+        "importance": "capital",
+        "description": "东汉都城，天下政治中心。董卓迁都长安后，洛阳一度荒废，曹丕称帝后复为魏都。",
+        "events": ["189年董卓入京", "220年曹丕称帝"]
+      },
+      "geometry": { "type": "Point", "coordinates": [112.45, 34.62] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "changan",
+        "name": "长安",
+        "faction": "群雄",
+        "importance": "major",
+        "description": "西汉故都，关中要地。董卓挟天子迁都于此，后为群雄割据争夺焦点。",
+        "events": ["190年董卓迁都", "192年董卓被杀"]
+      },
+      "geometry": { "type": "Point", "coordinates": [108.94, 34.26] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "xuchang",
+        "name": "许昌",
+        "faction": "曹魏",
+        "importance": "capital",
+        "description": "曹操迎汉献帝于此，成为实际政治中心，曹魏基业由此奠定。",
+        "events": ["196年迎献帝", "220年禅让"]
+      },
+      "geometry": { "type": "Point", "coordinates": [113.85, 34.02] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chengdu",
+        "name": "成都",
+        "faction": "蜀汉",
+        "importance": "capital",
+        "description": "益州核心，刘备称帝建都，诸葛亮北伐以此为基地。",
+        "events": ["221年刘备称帝", "263年蜀汉灭亡"]
+      },
+      "geometry": { "type": "Point", "coordinates": [104.07, 30.67] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jianye",
+        "name": "建业",
+        "faction": "东吴",
+        "importance": "capital",
+        "description": "孙权定都建业（今南京），据有江东，与魏蜀鼎立。",
+        "events": ["229年孙权称帝", "280年东吴灭亡"]
+      },
+      "geometry": { "type": "Point", "coordinates": [118.78, 32.06] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "xiangyang",
+        "name": "襄阳",
+        "faction": "群雄",
+        "importance": "major",
+        "description": "荆州北部门户，兵家必争之地，刘备三顾茅庐于此。",
+        "events": ["208年曹操南下", "219年关羽失荆州"]
+      },
+      "geometry": { "type": "Point", "coordinates": [112.14, 32.01] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "guandu",
+        "name": "官渡",
+        "faction": "曹魏",
+        "importance": "battlefield",
+        "description": "官渡之战主战场，曹操以少胜多，奠定统一北方基础。",
+        "events": ["200年官渡之战"]
+      },
+      "geometry": { "type": "Point", "coordinates": [113.95, 34.72] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chibi",
+        "name": "赤壁",
+        "faction": "东吴",
+        "importance": "battlefield",
+        "description": "赤壁之战发生地，孙刘联军大破曹操，奠定三国鼎立格局。",
+        "events": ["208年赤壁之战"]
+      },
+      "geometry": { "type": "Point", "coordinates": [113.90, 29.72] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yecheng",
+        "name": "邺城",
+        "faction": "曹魏",
+        "importance": "major",
+        "description": "曹操营建邺城，为北方军事政治中心，铜雀台所在地。",
+        "events": ["204年平定河北", "220年曹丕即位"]
+      },
+      "geometry": { "type": "Point", "coordinates": [114.35, 36.10] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hanzhong",
+        "name": "汉中",
+        "faction": "蜀汉",
+        "importance": "major",
+        "description": "益州北大门，刘备取汉中后称汉中王，诸葛亮北伐前哨。",
+        "events": ["219年刘备取汉中", "228年诸葛亮北伐"]
+      },
+      "geometry": { "type": "Point", "coordinates": [107.02, 33.07] }
+    }
+  ]
+}
